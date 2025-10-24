@@ -1,1 +1,49 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.equation-box {
+    width: 90%; /* Responsive width */
+    max-width: 700px; /* Max width to prevent stretching on large screens */
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+/* Specific colors based on your image */
+.green-box {
+    background-color: #e5ffed; /* Very light mint green */
+    border: 1px solid #c2f0d9;
+}
+
+.blue-box {
+    background-color: #e6f7ff; /* Very light sky blue */
+    border: 1px solid #c7e8ff;
+}
+
+.yellow-box {
+    background-color: #fffde5; /* Very light yellow */
+    border: 1px solid #fff1c7;
+}
+
+.equation-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Styling for the MathJax equations */
+.mjx-chtml, .katex-display {
+    overflow-x: auto; /* Ensures long equations can scroll on tiny screens */
+    margin: 15px 0 !important;
+}
